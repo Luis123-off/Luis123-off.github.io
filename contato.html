@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel = "stylesheet" type = "text/css" href = "./contato.css">
+</head>
+<body>
+
+    <header>
+        <h1> <a href="./index.html">DOA+</a></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="./interno/html/sobrenos.html">Sobre Nós</a></li>
+            <li><a href="./interno/html/doar.html">Fazer uma Doação</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Contato</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="adfe1482-fd69-4d62-af25-5a20aa539fa4">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+        </form>
+    </section>
+
+    
+</body>
+</html>

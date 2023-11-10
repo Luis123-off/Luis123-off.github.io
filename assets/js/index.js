@@ -1,0 +1,1 @@
+null==localStorage.getItem("token")&&(alert("Voc\xEA precisa estar logado para acessar essa p\xE1gina"),window.location.href="./assets/html/signin.html");const userLogado=JSON.parse(localStorage.getItem("userLogado"));function sair(){localStorage.removeItem("token"),localStorage.removeItem("userLogado"),window.location.href="./assets/html/signin.html"}
